@@ -1,0 +1,7 @@
+providers:
+  - id: local_ollama
+    type: ollama
+    endpoint: "http://127.0.0.1:11434"
+    models:
+      - "qwen2.5-coder:32b"
+      - "deepseek-r1:32b"
